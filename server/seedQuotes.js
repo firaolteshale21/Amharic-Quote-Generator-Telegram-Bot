@@ -24,30 +24,15 @@ const connectDB = async () => {
 const seedQuotes = async () => {
   await connectDB();
     const quotes = [
+      //here you can seed quotes to the database
+      
+
+      //below are examples how you can feed quotes 
+      
       { text: "ፅድቁ ቀርቶብኝ በቅጡ በኮነነኝ", author: "" },
       { text: "የማያውቁት አገር አይናፍቅም", author: "" },
       { text: "የአህያ ባል ከጅብ አያስጥልም", author: "" },
-      { text: "አህያውን ፈርቶ ዳውላውን", author: "" },
-      { text: "ያልሰማ ጆሮ ከጎረቤት ያጣላል", author: "" },
-      { text: "የቸገረው እርጉዝ ያገባል", author: "" },
-      { text: "ስራ ለሰሪው እሾህ ላጣሪው", author: "" },
-      { text: "ነገርን ከስሩ ውሃን ከጥሩ", author: "" },
-      { text: "ሰርገኛ መጣ በርበሬ ቀንጥሱ", author: "" },
-      { text: "ድር ቢያብር አንበሳ ያስር", author: "" },
-      { text: "ከአጋም የተጠጋ ቁልቋል ሲያለቅስ ይኖራል", author: "" },
-      { text: "አህያ የሌለው በቅሎ ይንቃል", author: "" },
-      { text: "አሳ ጎርጓሪ ዘንዶ ያወጣል", author: "" },
-      { text: "የቆጡን አወርድ ብላ የብብቷን ጣለች", author: "" },
-      { text: "ዶሮ ጭራ ማረጃዋን አወጣች", author: "" },
-      { text: "ጉልቻ ቢቀያየር ወጥ አያጣፍጥም", author: "" },
-      { text: "የቸኮለች አፍሳ ለቀመች", author: "" },
-      { text: "ምከረው ምከረው እቢ ካለ መከራ ይምከረው", author: "" },
-      { text: "አለባብሰው ቢያርሱ በአረም ይመለሱ", author: "" },
-      { text: "የነ ቶሎ ቶሎ ቤት ግድግዳው ሰንበሌጥ", author: "" },
-      { text: "ሀምሳ ሎሚ ለአንድ ሰው ሸክሙ ለሀምሳ ሰው ጌጡ ነው", author: "" },
-      { text: "ሆድ ያባውን ብቅል ያወጣዋል", author: "" },
-      { text: "የምጣዱ እያለ የእንቅቡ ተንጣጣ", author: "" },
-      { text: "ለጥምቀት ያልሆነ ቀሚስ ይበጣጠስ", author: "" },
+     
     ];
 
   await Quote.insertMany(quotes);
